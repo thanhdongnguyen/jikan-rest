@@ -10,7 +10,7 @@ networks:
 services:
 
   mongodb:
-    image: docker.io/mongo:focal
+    image: mongo
     hostname: mongodb
     volumes:
       - mongo-data:/data/db
