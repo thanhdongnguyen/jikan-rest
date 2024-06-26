@@ -10,7 +10,7 @@ networks:
 services:
 
   mongodb:
-    image: mongo
+    image: mongo:5.0
     hostname: mongodb
     volumes:
       - mongo-data:/data/db
